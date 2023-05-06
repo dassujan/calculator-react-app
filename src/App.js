@@ -25,11 +25,9 @@ const App = (e) => {
       <form>
         <input className='current-operand output' type={'text'} value={result} />
       </form>
-
       <div className='buttons'>
         <button className='ac span-two' onClick={clear} >AC</button>
         <button onClick={deleteScreen} >Del</button>
-
         <button name='/' onClick={handleCLick} >&divide;</button>
         <button name='7' onClick={handleCLick} >7</button>
         <button name='8' onClick={handleCLick} >8</button>
